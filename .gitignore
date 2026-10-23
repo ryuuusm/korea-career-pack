@@ -1,0 +1,10 @@
+# Never commit real offers or personal data.
+data/
+offers.json
+*.local.json
+
+__pycache__/
+.pytest_cache/
+*.pyc
+.venv/
+.DS_Store
