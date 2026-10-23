@@ -1,0 +1,35 @@
+{
+  "_comment": "Example only (fictional numbers). Copy to data/offers.json — data/ is gitignored in career-ops. All amounts in KRW unless rsu.currency says otherwise.",
+  "dependents": 1,
+  "offers": [
+    {
+      "label": "현직",
+      "base_annual_krw": 72000000,
+      "severance_included": false,
+      "bonus": {"target_pct": 10, "guaranteed": false},
+      "weekly_hours": 40,
+      "expected_ot_hours_per_week": 3
+    },
+    {
+      "label": "국내 A사",
+      "base_annual_krw": 85000000,
+      "severance_included": true,
+      "bonus": {"target_krw": 5000000, "guaranteed": false},
+      "fixed_ot": {"hours_per_month": 20},
+      "probation": {"months": 3, "pay_pct": 90},
+      "weekly_hours": 40,
+      "expected_ot_hours_per_week": 8
+    },
+    {
+      "label": "외국계 B사",
+      "base_annual_krw": 80000000,
+      "severance_included": false,
+      "bonus": {"target_pct": 15, "guaranteed": false},
+      "sign_on_krw": 10000000,
+      "sign_on_clawback_months": 12,
+      "rsu": {"grant_value": 60000, "currency": "USD", "fx_rate": 1390.0, "fx_date": "2026-10-22", "vest_years": 4, "cliff_months": 12},
+      "weekly_hours": 40,
+      "expected_ot_hours_per_week": 4
+    }
+  ]
+}
